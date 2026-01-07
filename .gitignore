@@ -1,0 +1,5 @@
+/.vs
+/LinqToDB.SqlServer.Streaming.Demo/obj
+/LinqToDB.SqlServer.Streaming.Demo/bin
+/LinqToDB.SqlServer.Streaming/obj
+/LinqToDB.SqlServer.Streaming/bin

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LinqToDB.SqlServer.Streaming/LinqToDB.SqlServer.Streaming.csproj" Id="f780892c-f9c0-4fab-b192-44543e6974e7" />
+  <Project Path="LinqToDB.SqlServer.Streaming.Demo/LinqToDB.SqlServer.Streaming.Demo.csproj" />
+</Solution>

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Description>Streaming extentions for LinqToDb with Sql Server</Description>
+		<Authors>Vladimir Skalkin</Authors>
+		<Copyright>Copyright 2026 © Vladimir Skalkin</Copyright>
+		<PackageTags>SqlServer linq2db linqToDb file stream upload download streaming</PackageTags>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<LangVersion>latest</LangVersion>
+		<NoWarn>CS1591,NU1903</NoWarn>
+		<RootNamespace>LinqToDB.SqlServer.Streaming</RootNamespace>
+		<AssemblyName>LinqToDB.SqlServer.Streaming</AssemblyName>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<!--AssemblyOriginatorKeyFile>../some.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>true</SignAssembly-->
+		<PackageProjectUrl>https://github.com/feeleen/LinqToDB.SqlServer.Streaming</PackageProjectUrl>
+		<!--PackageIcon>package-icon.png</PackageIcon-->
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>git://github.com/feeleen/LinqToDB.SqlServer.Streaming</RepositoryUrl>
+		<Deterministic>true</Deterministic>
+		<NuGetAudit>false</NuGetAudit>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="linq2db" Version="6.1.0" />
+	</ItemGroup>
+
+</Project>
